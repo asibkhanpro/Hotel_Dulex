@@ -1,0 +1,127 @@
+@media all and (max-width : 1183px){ 
+	.mid{ 
+		width:95%;
+	}
+}
+
+@media all and (max-width : 1097px){ 
+	.location h2{ 
+		font-size:30px;
+	}
+	.location img{ 
+		width:200px;
+	}
+}
+
+@media all and (max-width : 996px){ 
+	.logo{ 
+		width:100%;
+		float:none; 
+	}
+	.logo img{ 
+		margin:auto; 
+		display:block;
+	}
+	.header{ 
+		overflow:hidden;
+	}
+	.menu { 
+		width:100%;
+		float:none; 
+	}
+	.menu ul{ 
+		text-align:center;
+	}
+	.circle { 
+		width:150px;
+		height:150px;
+		margin-top:46px;
+	}
+	.footer-box p{ 
+		width:95%;
+	}
+	.search-box { 
+		width:90%;
+		margin:auto;
+		text-align:center;
+	}
+	
+	.search-box .box1 { 
+		width:30%;
+		margin:auto;
+		float:none; 
+		display:inline-block;
+	}
+	.search-box .box2{ 
+		width:50%;
+		margin:auto ;
+		float:none;
+		text-align:center;
+		display:block;
+		width:150px;
+	}
+	
+	
+}
+@media all and (max-width: 962px){ 
+	.footer-box { 
+		width:50%;
+	}
+	.footer-box:nth-child(3) { 
+		width:50%;
+	}
+}
+
+@media all and (max-width: 850px){ 
+	.left{ 
+		left:0px;
+	}
+	.right{ 
+		right:0px;
+	}
+}
+
+
+@media all and (max-width: 768px){ 
+	.location p{ 
+		width:70%;
+	}
+	
+}
+
+
+@media all and (max-width: 648px){ 
+	.location h2{ 
+		width:70%;
+	}
+	.left , .right { 
+		display:none;
+	}
+	
+}
+
+@media all and (max-width: 600px){ 
+	.menu { 
+		display:none;
+	}
+	.menu-res{ 
+		display:block; 
+		color:#FFF;
+		
+	}
+	.menu ul li { 
+		display:block;
+	}
+	.menu ul li a{ 
+		padding:10px 0px;
+	}
+	.menu-res a{ 
+		color:#FFF;
+		text-align:right; 
+		display:block;
+		padding:10px 20px;
+	}
+	.room-box{ 
+		width:90%;
+	}
+}
